@@ -36,7 +36,10 @@ const input = document.querySelector('input')
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 let index = 0
 input.addEventListener('keydown', function(e) {
-  if (e.detail === code[0]){
-    alert("Yay!")
+  for (i = 0; i < code.length; i++){
+    if (parseInt(e.which) === code[index]){
+      alert("Yay!")
+      code++
+    }
   }
 })
