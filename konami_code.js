@@ -4,3 +4,4 @@ function init() {
   // Write your JavaScript code inside the init() function
 
 }
+console.log(e.detail)
