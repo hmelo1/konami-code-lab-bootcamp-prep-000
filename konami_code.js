@@ -3,7 +3,6 @@ const body = document.querySelector('body')
 
 body.addEventListener('keydown', function(e){
   key = parseInt(e.detail || e.key)
-  console.log(e.which)
   if (key === code[0]){
     alert("Yay!")
   }
